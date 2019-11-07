@@ -19,7 +19,8 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  (num1/num2).Float - (num1/num2).Integer
+  result=num1%num2
+  result
 end
 
 def square_root(num)
